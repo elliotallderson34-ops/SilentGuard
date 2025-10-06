@@ -1,0 +1,20 @@
+  {
+    "tool": "Netwwork_scanner.py",
+    "id": "wifi-001",
+    "type": "wifi_scan_summary",
+    "timestamp": "2025-10-06T18:45:01Z",
+    "summary": {
+      "description": "Scan of nearby Wi-Fi networks and gather all possible data avail to the router or network using OS command (Windows netsh demo).",
+      "rows": 3,
+      "example_row": {
+        "ts": "2025-10-06T18:45:01Z",
+        "ssid": "HomeNet",
+        "bssid": "4C:0B:BE:A3:1F:12",
+        "IP": "129.90.86.41",
+        "MAC": "ef:tg;hg;3rt",
+        "signal_pct": 86,
+        "radio": "802.11n",
+        "channel": 11,
+        "frequency_mhz": 2412
+      },
+      "recommendation": "Use fingerprinting or multi-AP trilateration for improved indoor localization; do not track devices without consent."
