@@ -1,0 +1,26 @@
+{
+  "target": "example.com",
+  "timestamp": "2025-10-06T21:10:00Z",
+  "subdomains_found": [
+    "api.example.com",
+    "blog.example.com",
+    "mail.example.com"
+  ],
+  "dns_records": {
+    "A": ["192.168.1.2"],
+    "MX": ["mail.example.com"],
+    "TXT": ["v=spf1 include:example.net ~all"]
+  },
+  "tech_stack": {
+    "web_server": "nginx 1.25.1",
+    "framework": "Django 4.2",
+    "language": "Python 3.11",
+    "os": "Ubuntu 22.04"
+  },
+  "ports_detected": [22, 80, 443],
+  "parameter_verifier": {
+    "vulnerable_parameters": [],
+    "validated_parameters": ["id", "search", "page"]
+  },
+  "scan_summary": "Recon scan completed successfully — no security misconfigurations detected. Results stored locally."
+}
