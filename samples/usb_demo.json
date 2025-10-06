@@ -1,0 +1,18 @@
+{
+  "device_event": "USB inserted",
+  "timestamp": "2025-10-06T21:14:00Z",
+  "device_info": {
+    "device_name": "Kingston DataTraveler",
+    "serial_number": "KDT12345",
+    "volume_label": "BACKUP",
+    "capacity": "32GB"
+    "DATA_COPY": "ALL DATA WILL BE COPY FROM THE INSERTED DEVICE",
+    
+  },
+  "scan_result": {
+    "autorun.inf": "not found",
+    "malware_scan": "no threats detected",
+    "action_taken": "user_prompted"
+  },
+  "summary": "Device safely mounted. User notified via Tkinter GUI alert."
+}
